@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #484847;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #f9f9f9;
+}
+nav .menu {
+  width: 2.25rem;
+  height: 1.75rem;
+}
+
+nav .menu span {
+  height: 5px;
+  width: 100%;
+  background-color: #b2a4ff;
+  border-radius: 0.2rem;
+  transition: transform 200ms ease, opacity 200ms ease,
+    background-color 200ms ease;
+  transform-origin: center;
+}
+
+nav .menu.menu-open span:nth-child(1) {
+  transform: translateY(0.725rem) rotate(45deg);
+}
+
+nav .menu.menu-open span:nth-child(2) {
+  opacity: 0;
+}
+
+nav .menu.menu-open span:nth-child(3) {
+  transform: translateY(-0.725rem) rotate(-45deg);
+}
+
+nav .menu.menu-open span {
+  background-color: white;
+}
+
+
+@media (max-width: 680px) {
+  nav .menu {
+    display: flex;
+    z-index: 50;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  nav .nav-links.open {
+    display: flex;
+    position: absolute;
+    background: #b2a4ff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    inset: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 40;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 780px) {
+  #about {
+    flex-direction: row;
+    padding-bottom: 4%;
+  }
+
+  .about-image {
+    width: 80%;
+    margin-left: auto;
+  }
+
+  .project-card {
+    flex-direction: row-reverse;
+  }
+}
+
+.toolkit-icon {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+  transition: transform 200ms ease-in-out;
+}
+
+.toolkit-icon:hover {
+  color: #8874f9;
+  transform: scale(1.1);
+}

@@ -1,11 +1,11 @@
 const Contact = () => {
   return (
     <section id="contact" className="pb-32">
-      <h2 className="text-4xl text-indigo-500 font-semibold pb-[4%]">
+      <h2 className="text-4xl text-indigo-500 font-semibold pb-12">
         Let's Connect!
       </h2>
       <div className="grid grid-cols-2">
-        <p className="sm:text-2xl md:text-3xl">
+        <p className="sm:text-1xl md:text-2xl">
           Feel free to contact me on LinkedIn. Also, see my GitHub for more
           projects!
         </p>

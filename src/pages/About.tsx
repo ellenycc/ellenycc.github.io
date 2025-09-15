@@ -7,11 +7,18 @@ const About = () => {
         data-aos-once="true"
       >
         <h2 className="text-4xl text-indigo-500 font-semibold mb-6">
-          About
+          About Me
         </h2>
         <p className="text-12 md:text-md leading-8">
-          My interest in programming sparked when I was working as a project officer in a university, 
-          managing a mobile app project that promote literature in Hong Kong. 
+          My programming journey began during the time that I led the development of
+          <a 
+            href="https://apps.apple.com/tt/app/%E5%9C%A8%E5%9C%B0%E8%AE%80%E5%AF%AB/id1598243347" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="underline text-indigo-500"> 
+            MyTopoHK
+          </a>,
+          a mobile app project, as a project officer at The Education University of Hong Kong. 
           I was fascinated by how an idea can be transformed into something tangible and impactful with coding.
           From that moment, I decided to pivot my career into software
           engineering. After diving headfirst into a 6-month full-stack web

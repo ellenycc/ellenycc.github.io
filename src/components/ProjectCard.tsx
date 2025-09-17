@@ -48,20 +48,20 @@ const ProjectCard = ({ item }: { item: ProjectItem }) => {
         </p>
         <div className="flex flex-wrap gap-4">
           <a
-            className="inline-flex items-center rounded-2xl px-5 py-3 text-md bg-indigo-500 text-white hover:bg-indigo-600 transition-all duration-300"
+            className="inline-flex items-center rounded-2xl px-5 py-3 text-md border-indigo-500 border-2 text-indigo-500 hover:bg-indigo-500 shadow-md hover:text-white transition-all duration-300"
             href={item.code}
             target="_blank"
             rel="noopener noreferrer"
           >
-            GITHUB
+            Github
           </a>
           <a
-            className="inline-flex items-center rounded-2xl px-5 py-3 text-md bg-indigo-500 text-white hover:bg-indigo-600 transition-all duration-300"
+            className="inline-flex items-center rounded-2xl px-5 py-3 text-md border-indigo-500 border-2 text-indigo-500 hover:bg-indigo-500 shadow-md hover:text-white transition-all duration-300"
             href={item.live}
             target="_blank"
             rel="noopener noreferrer"
           >
-            LIVE
+            Live
           </a>
         </div>
       </div>

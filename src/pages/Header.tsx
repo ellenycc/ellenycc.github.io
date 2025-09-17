@@ -19,12 +19,12 @@ const Header = () => {
           data-aos="fade-up"
           data-aos-once="true"
         >
-          <p className="text-md pb-4">Hello! I'm</p>
-          <h1 className="text-4xl md:text-6xl font-semibold pb-5">
+          <p className="text-md pb-4">Hi, I'm</p>
+          <h1 className="text-4xl md:text-6xl font-bold pb-5">
             Ellen Chan
           </h1>
-          <h2 className="text-4xl md:text-5xl font-semibold text-indigo-500  pb-5">
-            Full Stack Web Developer
+          <h2 className="text-4xl md:text-5xl font-bold text-indigo-500  pb-5">
+            Full-Stack Web Developer
           </h2>
           <p className="md:text-1xl pb-6 w-full">
             Blending art and technology to
@@ -33,12 +33,12 @@ const Header = () => {
           <div className="flex flex-row items-center justify-start gap-6 mt-3 w-full">
             <a
               href="#projects"
-              className="rounded-2xl px-6 py-4 text-md bg-indigo-500 text-white hover:bg-indigo-600 transition-all duration-300"
+              className="rounded-2xl px-6 py-4 text-md bg-indigo-500 text-white hover:bg-indigo-600"
             >
               My projects
             </a>
             <a
-              className="border-2 rounded-full px-3 py-3 text-2xl hover:text-indigo-500 transition-all duration-300"
+              className="border-2 rounded-full px-3 py-3 text-2xl hover:text-indigo-500"
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/ellen-chan-01656731/"
@@ -46,7 +46,7 @@ const Header = () => {
               <FaLinkedinIn />
             </a>
             <a
-              className="border-2 rounded-full px-3 py-3 text-2xl hover:text-indigo-500 transition-all duration-300"
+              className="border-2 rounded-full px-3 py-3 text-2xl hover:text-indigo-500"
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/ellenycc"

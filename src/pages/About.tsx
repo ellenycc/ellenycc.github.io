@@ -19,12 +19,10 @@ const About = () => {
           a mobile application that promotes Hong Kong literature. 
           I discovered the beauty of how coding can transform an idea into something tangible and impactful.
           From that moment, I decided to pivot my career into software
-          engineering. After diving headfirst into a 6-month full-stack web
-          development bootcamp at Le Wagon, my passion for learning led me to
-          Python, React and TypeScript. With never-ending curiosity, I'm always learning new things and practicing to become a better developer. 
-          I love crafting interactive web applications that tackle real challenges in both my life and at work.
+          engineering.  I love crafting interactive web applications that tackle real challenges in both my life and at work. 
+          With never-ending curiosity, I'm always learning new skills and building to become a better developer.
         </p>
-        <p className="text-base md:text-md leading-8 pt-4">When I'm not coding, you can find me exploring new places, trying new restaurants and taking dance classes. </p>
+        <p className="text-base md:text-md leading-8 pt-4">When I'm not coding, you can find me travelling ✈️, going to new exhibitions 🖼️ and taking dance classes. </p>
       </div>
 
       <div className="flex-shrink-0">

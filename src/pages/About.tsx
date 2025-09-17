@@ -22,7 +22,7 @@ const About = () => {
           engineering.  I love crafting interactive web applications that tackle real challenges in both my life and at work. 
           With never-ending curiosity, I'm always learning new skills and building to become a better developer.
         </p>
-        <p className="text-base md:text-md leading-8 pt-4">When I'm not coding, you can find me travelling ✈️, going to new exhibitions 🖼️ and taking dance classes. </p>
+        <p className="text-base md:text-md leading-8 pt-4">When I'm not coding, you can find me travelling ✈️, going to new exhibitions 🖼️ and taking dance classes 💃. </p>
       </div>
 
       <div className="flex-shrink-0">

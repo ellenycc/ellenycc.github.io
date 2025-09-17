@@ -8,9 +8,6 @@ const Project = () => {
       <h2 className="text-4xl text-indigo-500 font-semibold mb-12">
         My Projects
       </h2>
-      <p className="text-md italic mb-12">
-        Here are my projects including internal tools I built for my work as well as personal projects.
-      </p>
       <div className="space-y-12">
         {projects.map((p) => (
           <ProjectCard key={p.title} item={p} />

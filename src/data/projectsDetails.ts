@@ -1,19 +1,20 @@
 import { type ProjectItem } from "../components/ProjectCard";
 
 export const projects: ProjectItem[] = [
-  {
-    title: "Ellen's Portfolio",
-    description:
-      "My portfolio website is fully responsive and built with React, TypeScript and Tailwind CSS.",
-    tools: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-    ],
-    imageSrc: "/ng-painting-database.png",
-    live: "https://ng-paintingdatabase.streamlit.app/",
-    code: "https://github.com/ellenycc/ngscraper-ui",
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   description:
+  //     "My portfolio website is fully responsive and built with React, TypeScript, styled with Animate on scroll library and Tailwind CSS.",
+  //   tools: [
+  //     "React",
+  //     "TypeScript",
+  //     "Tailwind CSS",
+  //     "AOS",
+  //   ],
+  //   imageSrc: "/ng-painting-database.png",
+  //   live: "https://ellenchan.vercel.app/",
+  //   code: "https://github.com/ellenycc/ellenycc.github.io",
+  // },
   {
     title: "National Gallery Painting Resolution Database",
     description:

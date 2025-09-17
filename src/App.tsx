@@ -16,7 +16,7 @@ function App() {
       <Contact />
       <footer>
         <span className="block text-sm text-center my-8">
-          Designed and developed by Ellen Chan
+        Copyright © 2025 Ellen Chan
         </span>
       </footer>
     </div>

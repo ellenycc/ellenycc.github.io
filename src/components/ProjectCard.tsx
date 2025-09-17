@@ -22,6 +22,7 @@ const ProjectCard = ({ item }: { item: ProjectItem }) => {
           className="relative w-full rounded-xl aspect-video"
           data-aos="fade-left"
           data-aos-duration="500"
+          data-aos-once="true"
         >
           <img
             src={item.imageSrc}
@@ -34,7 +35,7 @@ const ProjectCard = ({ item }: { item: ProjectItem }) => {
         </div>
       </div>
       <div
-        className="order-1 md:order-none md:col-span-3"
+        className="order-1 md:order-none md:col-span-3 flex flex-col gap-3 md:gap-5"
         data-aos="fade-right"
         data-aos-duration="500"
       >
@@ -47,7 +48,7 @@ const ProjectCard = ({ item }: { item: ProjectItem }) => {
         </p>
         <div className="flex flex-wrap gap-4">
           <a
-            className="inline-flex items-center rounded-2xl px-4 py-2 text-sm bg-indigo-500 text-white hover:bg-indigo-600"
+            className="inline-flex items-center rounded-2xl px-5 py-3 text-md bg-indigo-500 text-white hover:bg-indigo-600 transition-all duration-300"
             href={item.code}
             target="_blank"
             rel="noopener noreferrer"
@@ -55,7 +56,7 @@ const ProjectCard = ({ item }: { item: ProjectItem }) => {
             GITHUB
           </a>
           <a
-            className="inline-flex items-center rounded-2xl px-4 py-2 text-sm bg-indigo-500 text-white hover:bg-indigo-600"
+            className="inline-flex items-center rounded-2xl px-5 py-3 text-md bg-indigo-500 text-white hover:bg-indigo-600 transition-all duration-300"
             href={item.live}
             target="_blank"
             rel="noopener noreferrer"

@@ -54,13 +54,6 @@ const Toolkit = () => {
 
           <li className="list-none leading-8">
             <div className="toolkit-icon">
-              <i className="devicon-css3-plain"></i>
-            </div>
-            CSS3
-          </li>
-
-          <li className="list-none leading-8">
-            <div className="toolkit-icon">
               <i className="devicon-postgresql-plain"></i>
             </div>
             PostgreSQL
@@ -82,6 +75,20 @@ const Toolkit = () => {
 
           <li className="list-none leading-8">
             <div className="toolkit-icon">
+              <i className="devicon-css3-plain"></i>
+            </div>
+            CSS3
+          </li>
+
+          <li className="list-none leading-8">
+            <div className="toolkit-icon">
+              <i className="devicon-tailwindcss-original"></i>
+            </div>
+            Tailwind CSS
+          </li>
+
+          <li className="list-none leading-8">
+            <div className="toolkit-icon">
               <i className="devicon-github-original"></i>
             </div>
             Github
@@ -89,10 +96,11 @@ const Toolkit = () => {
 
           <li className="list-none leading-8">
             <div className="toolkit-icon">
-              <i className="devicon-heroku-original"></i>
+              <i className="devicon-digitalocean-original"></i>
             </div>
-            Heroku
+            DigitalOcean
           </li>
+
         </ul>
       </div>
     </section>

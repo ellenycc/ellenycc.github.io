@@ -11,7 +11,7 @@ const Header = () => {
   }, []);
   return (
     <header
-      className="intro flex flex-col h-screen pt-56"
+      className="intro flex flex-col pt-[50%] md:pt-[20%]"
     >
       <div className="about-bio">
         <div 
@@ -20,13 +20,13 @@ const Header = () => {
           data-aos-once="true"
         >
           <p className="text-md pb-4">Hello! I'm</p>
-          <h1 className="text-5xl md:text-6xl font-semibold pb-6">
+          <h1 className="text-4xl md:text-6xl font-semibold pb-5">
             Ellen Chan
           </h1>
-          <h2 className="text-5xl font-semibold text-indigo-500 md:text-5xl pb-5">
+          <h2 className="text-4xl md:text-5xl font-semibold text-indigo-500  pb-5">
             Full Stack Web Developer
           </h2>
-          <p className="lg:text-2xl pb-6 w-full">
+          <p className="md:text-1xl pb-6 w-full">
             Blending art and technology to
             build engaging and impactful apps
           </p>

@@ -18,7 +18,7 @@ const About = () => {
           </a>,
           a mobile application that promotes Hong Kong literature. 
           I discovered the beauty of how coding can transform an idea into something tangible and impactful.
-          From that moment, I decided to pivot my career into software engineering. I love crafting interactive web applications that tackle real challenges in both my life and at work. 
+          From that moment, I decided to pivot my career into software engineering. I love crafting interactive web applications that make a positive impact in both my life and at work. 
           With never-ending curiosity, I'm always learning new skills and building to become a better developer.
         </p>
         <p className="text-base md:text-md leading-8 pt-4">When I'm not coding, you can find me in cute cafes ☕️, visiting new exhibitions 🖼️ or taking dance classes 💃. </p>
